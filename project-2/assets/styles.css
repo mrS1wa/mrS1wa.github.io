@@ -1,0 +1,57 @@
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF87E7;
+  height: 60px;
+  width: 1920px;
+}
+
+.nav-bar{
+  display: flex;
+
+}
+
+a{
+  float: right;
+}
+
+a{
+display: inline;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 30px;
+}
+
+body{
+  background-color: #171717;
+}
+
+.feature-image {
+  width: 1920px;
+  height: 361px;
+  overflow: hidden;
+}
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+
+.left-column p{
+  width:576px;
+  height: 365px;
+  overflow: auto;
+  font-size: 20px;
+}
+.left-column a{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-column{
+
+}

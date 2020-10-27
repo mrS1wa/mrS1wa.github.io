@@ -1,0 +1,19 @@
+/* This is where you will place your styles in order to show and hide Happy Froggie */
+
+#happy_froggie{
+  opacity: 0;
+  position: absolute;
+  left: 0;
+}
+
+#happy_froggie.visible{
+  opacity: 1;
+}
+
+#sad_froggie{
+  width:
+}
+
+#sad_froggie.biggie-sized{
+  width: 400px;
+}

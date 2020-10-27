@@ -1,0 +1,170 @@
+body {
+  font-family:'Eagle Lake', cursive;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px; /* this is defining the base size for all the type on the page. What ever value is included here it will change all the following font-sizes proportionally. */
+}
+
+#container {
+  margin: 0;
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  position: relative;
+}
+
+#main-bodycopy{
+  font-size: 25px;
+  font-weight: 390;
+  width: 324px;
+  margin-left: 90px;
+  margin-top: -115px;
+
+}
+p {
+  /* an em is defined by the parent element that has defined the main value. In this case all elements are inheriting the 18px value from the body tag */
+  font-family: 'Lato', sans-serif;
+  font-size: 1em; /* 1em = 18px */
+  font-style: oblique;
+}
+
+h1 {
+  color: #000000;
+  font-weight: 400;
+  font-family: 'Eagle Lake', cursive;
+  font-size: 600px; /* 600px / 18px = 33.333333em */
+  padding: 0;
+  margin: 0;
+  margin-top: -100px;
+}
+
+h2,
+h3 {
+  color: #000000;
+  font-family: 'Eagle Lake', cursive;
+}
+
+h2 {
+  font-size: 160px; /* 36px / 18px = 2em */
+  font-weight: 400;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin-left: 0;
+}
+
+h3 {
+  /* 24/18 = 1.3333em */
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 50;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #D90000
+}
+
+.image-subheader h4{
+  width: 100px;
+  height: 297px;
+  line-height: 40px;
+}
+
+
+.character-highlights {
+  width: 49px;
+  height: 600px;
+  text-transform: uppercase;
+  text-orientation: upright;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-left: 0;
+  font-size: 30px; /* 60/18 = 3.3333em */
+  color: #D90000;
+  padding-right: 30px;
+  z-index: 8000;
+}
+
+.character-border {
+  width: 53px;
+  height: 613px;
+  border: 2px solid #D90000;
+  margin: -608px 0px 38px -13px;
+  border-radius: 10px;
+
+}
+
+.character-highlights::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+.character-highlights::-webkit-scrollbar-track {
+  border: 1px solid #D90000;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+.character-highlights::-webkit-scrollbar-thumb {
+  background-color: #D90000;
+  border-radius: 25px;
+}
+
+.letter-container,
+.image-subheader,
+.left-column {
+  display: flex;
+}
+.letter-container{
+  align-items: baseline;
+}
+
+#toggle_button{
+  font-family:'Eagle Lake', cursive;
+  font-size: 20px;
+  width: 80px;
+  height: 100px;
+  border: 2px solid #D90000;
+  border-radius: 10px;
+  color:#D90000;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: -70px;
+  z-index: 9000;
+}
+
+#toggle_button:hover{
+  color:#ffffff;
+  background-color: #D90000;
+}
+
+.left-column h2:first-of-type{
+  margin: 0;
+}
+
+.left-column h2:last-of-type{
+  margin-top: 300px;
+}
+.middle-column{
+    text-align: center;
+    margin-right: 150px;
+}
+
+.right-column{
+  margin-left: 100px;
+}
+
+a {
+  color: #6CD2E2;
+  text-decoration: underline;
+}
+
+#letter-analysis{
+  opacity: 0;
+  position: absolute;
+  left: -7px;
+  top: 60px;
+}
+
+#letter-analysis.visible{
+  opacity: 1;
+}
