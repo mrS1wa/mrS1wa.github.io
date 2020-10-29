@@ -34,7 +34,11 @@ body{
 }
 
 .featured-image {
+  position: relative;
+  text-align: center;
+  opacity: 50%;
 }
+
 
 .container h2{
   color: white;
@@ -79,4 +83,11 @@ p{
   font-size: 20px;
   font-weight: bold;
   text-align: left;
+}
+
+.bio{
+  width:1056px;
+  height: 480px;
+  overflow: auto;
+  font-size: 25px;
 }
