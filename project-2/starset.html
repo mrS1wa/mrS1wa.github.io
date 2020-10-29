@@ -1,4 +1,3 @@
-<!<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -9,18 +8,29 @@
   <body>
     <div class="nav-bar">
       <nav>
-        <a href="#Bands"> Bands</a>
-        <a href="#About"> About</a>
+        <div class="dropdown">
+          <button class="dropbtn">Bands
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="starset.html">Starset</a>
+            <a href="bad-suns.html">Bad Suns</a>
+            <a href="shinedown.html">Shinedown</a>
+          </div>
+        </div>
+        <a href="about.html"> About</a>
         <a href="index.html"> Home</a>
       </nav>
     </div>
 
-    <div class="featured-image" style="width: 1920px; height: 361px; overflow: hidden">
-      <img src="assets/Starset-Web-FPC-1.jpg" width="1920" height="1080" alt="">
-    </div>
+    <h1> Starset</h1>
+
     <div class="container">
-      <div class="left-column">
-        <h2>Overview</h2>
+      <div class="band-bio">
+        <h2>About the Band</h2>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/watch?v=FGZz-pEG2-c">
+        </iframe>
         <p>
         Uciet et, te perspie ntionsecaero volores re maximusci nimpostotate
         voluptaque nienda doluptation rem que et ut pro dolupta tiorit ex et
@@ -31,17 +41,25 @@
         eperum ipsum aut assequi rem qui a quaepta et eiuscia dis repercitati que
         nonseque rere, erempos ra disqui doluptas as dolorae minctat odit ut
         faceates cuptati dio.
-        <br> <a href="#"> Read More...</a> <br>
         </p>
-      </div>
-      <div class="middle-column">
-        <nav>
-          <<a href="#"></a>
-        </nav>
       </div>
 
       <div class="right-column">
-        <h2>Albums</h2>
+        <h2>Discography</h2>
+        <div class= "discography">
+          <figure>
+            <img src="assets/divisions.jpg" alt="" style="width:241px;height:241px">
+            <figcaption>Divisons (2019)</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/vessels.jpg" alt="" style="width:241px;height:241px">
+            <figcaption>Vessels (2017)</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/transmissions.jpg" alt="" style="width:241px;height:241px">
+            <figcaption>Transmissions (2014)</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
 
