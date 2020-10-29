@@ -1,4 +1,4 @@
-nav{
+.nav-bar nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,36 +13,64 @@ nav{
 
 }
 
-a{
+.nav-bar a{
   float: right;
 }
 
-a{
+.nav-bar a{
 display: inline;
-color: white;
 padding-left: 10px;
 padding-right: 10px;
 font-size: 30px;
 }
 
+a{
+  color: white;
+}
 body{
   background-color: #171717;
+  margin: 0;
+  padding: 0;
 }
 
-.feature-image {
-  width: 1920px;
-  height: 361px;
-  overflow: hidden;
+.featured-image {
 }
-h2{
+
+.container h2{
   color: white;
+  font-size: 45px
 }
 p{
   color: white;
 }
 
+.container{
+  display: flex;
+  width: 1824px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.middle-column nav{
+  background-color: #FF87E7;
+  height: 105px;
+  width: 294px;
+  border-radius: 30px;
+}
+
+
+.middle-coulmn{
+
+}
+
+.middle-column a{
+  font-size: 60px
+}
+
 .left-column p{
-  width:576px;
+  width:596px;
   height: 365px;
   overflow: auto;
   font-size: 20px;
@@ -50,8 +78,5 @@ p{
 .left-column a{
   font-size: 20px;
   font-weight: bold;
-}
-
-.right-column{
-
+  text-align: left;
 }
